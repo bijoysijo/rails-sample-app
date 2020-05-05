@@ -1,6 +1,6 @@
 %html
   %head
-    %title= yield(:title) + ' | Ruby on Rails Tutorial Sample App'
+    %title= full_title(yield(:title))
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title SampleApp
     = csrf_meta_tags
