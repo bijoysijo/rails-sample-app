@@ -10,7 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'haml-rails', '~> 2.0'
-gem 'bootstrap', '~> 4.4.1'
+gem 'bootstrap-sass'
 gem 'sprockets-rails'
 gem 'jquery-rails'
 
